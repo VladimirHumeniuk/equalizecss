@@ -69,16 +69,15 @@
 
   @for $i from 1 through 12 
     .col-xs-#{$i} 
-      flex-basis: $column * (nth($col-ratio, $i))
-      max-width: $column * (nth($col-ratio, $i))
-
+      flex-basis: $column * $i
+      max-width: $column * $i
 .col-xs-offset-0
   margin-left: 0
 
   @for $i from 1 through 11
     .col-xs-offset-#{$i}
-      flex-basis: $column * (nth($col-ratio, $i))
-      max-width: $column * (nth($col-ratio, $i))
+      flex-basis: $column * $i
+      max-width: $column * $i
 
 .start-xs
   justify-content: flext-start
@@ -149,16 +148,16 @@
 
   @for $i from 1 through 12
     .col-sm-#{$i}
-      flex-basis: $column * (nth($col-ratio, $i))
-      max-width: $column * (nth($col-ratio, $i))
+      flex-basis: $column * $i
+      max-width: $column * $i
 
 .col-sm-offset-0
   margin-left: 0
 
   @for $i from 1 through 11
     .col-sm-offset-#{$i}
-      flex-basis: $column * (nth($col-ratio, $i))
-      max-width: $column * (nth($col-ratio, $i))
+      flex-basis: $column * $i
+      max-width: $column * $i
 
   .start-sm
     justify-content: flext-start
@@ -229,16 +228,16 @@
 
   @for $i from 1 through 12
     .col-md-#{$i}
-      flex-basis: $column * (nth($col-ratio, $i))
-      max-width: $column * (nth($col-ratio, $i))
+      flex-basis: $column * $i
+      max-width: $column * $i
 
 .col-md-offset-0
   margin-left: 0
 
   @for $i from 1 through 11
     .col-md-offset-#{$i}
-      flex-basis: $column * (nth($col-ratio, $i))
-      max-width: $column * (nth($col-ratio, $i))
+      flex-basis: $column * $i
+      max-width: $column * $i
 
   .start-md
     justify-content: flext-start
@@ -309,16 +308,16 @@
 
   @for $i from 1 through 12
     .col-lg-#{$i}
-      flex-basis: $column * (nth($col-ratio, $i))
-      max-width: $column * (nth($col-ratio, $i))
+      flex-basis: $column * $i
+      max-width: $column * $i
 
 .col-lg-offset-0
   margin-left: 0
 
   @for $i from 1 through 11
     .col-lg-offset-#{$i}
-      flex-basis: $column * (nth($col-ratio, $i))
-      max-width: $column * (nth($col-ratio, $i))
+      flex-basis: $column * $i
+      max-width: $column * $i
 
   .start-lg
     justify-content: flext-start
