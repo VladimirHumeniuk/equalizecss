@@ -67,89 +67,18 @@
   flex-basis: 0
   max-width: 100%
 
-.col-xs-1
-  flex-basis: $column
-  max-width: $column
-
-.col-xs-2
-  flex-basis: $column * $col-ratio-2
-  max-width: $column * $col-ratio-2
-
-.col-xs-3
-  flex-basis: $column * $col-ratio-3
-  max-width: $column * $col-ratio-3
-
-.col-xs-4
-  flex-basis: $column * $col-ratio-4
-  max-width: $column * $col-ratio-4
-
-.col-xs-5
-  flex-basis: $column * $col-ratio-5
-  max-width: $column * $col-ratio-5
-
-.col-xs-6
-  flex-basis: $column * $col-ratio-6
-  max-width: $column * $col-ratio-6
-
-.col-xs-7
-  flex-basis: $column * $col-ratio-7
-  max-width: $column * $col-ratio-7
-
-.col-xs-8
-  flex-basis: $column * $col-ratio-8
-  max-width: $column * $col-ratio-8
-
-.col-xs-9
-  flex-basis: $column * $col-ratio-9
-  max-width: $column * $col-ratio-9
-
-.col-xs-10
-  flex-basis: $column * $col-ratio-10
-  max-width: $column * $col-ratio-10
-
-.col-xs-11
-  flex-basis: $column * $col-ratio-11
-  max-width: $column * $col-ratio-11
-
-.col-xs-12
-  flex-basis: $column * $col-ratio-12
-  max-width: $column * $col-ratio-12
+  @for $i from 1 through 12 
+    .col-xs-#{$i} 
+      flex-basis: $column * (nth($col-ratio, $i))
+      max-width: $column * (nth($col-ratio, $i))
 
 .col-xs-offset-0
   margin-left: 0
 
-.col-xs-offset-1
-  margin-left: $column
-
-.col-xs-offset-2
-  margin-left: $column * $col-ratio-2
-
-.col-xs-offset-3
-  margin-left: $column * $col-ratio-3
-
-.col-xs-offset-4
-  margin-left: $column * $col-ratio-4
-
-.col-xs-offset-5
-  margin-left: $column * $col-ratio-5
-
-.col-xs-offset-6
-  margin-left: $column * $col-ratio-6
-
-.col-xs-offset-7
-  margin-left: $column * $col-ratio-7
-
-.col-xs-offset-8
-  margin-left: $column * $col-ratio-8
-
-.col-xs-offset-9
-  margin-left: $column * $col-ratio-9
-
-.col-xs-offset-10
-  margin-left: $column * $col-ratio-10
-
-.col-xs-offset-11
-  margin-left: $column * $col-ratio-11
+  @for $i from 1 through 11
+    .col-xs-offset-#{$i}
+      flex-basis: $column * (nth($col-ratio, $i))
+      max-width: $column * (nth($col-ratio, $i))
 
 .start-xs
   justify-content: flext-start
@@ -218,89 +147,18 @@
     flex-basis: 0
     max-width: 100%
 
-  .col-sm-1
-    flex-basis: $column
-    max-width: $column
+  @for $i from 1 through 12
+    .col-sm-#{$i}
+      flex-basis: $column * (nth($col-ratio, $i))
+      max-width: $column * (nth($col-ratio, $i))
 
-  .col-sm-2
-    flex-basis: $column * $col-ratio-2
-    max-width: $column * $col-ratio-2
+.col-sm-offset-0
+  margin-left: 0
 
-  .col-sm-3
-    flex-basis: $column * $col-ratio-3
-    max-width: $column * $col-ratio-3
-
-  .col-sm-4
-    flex-basis: $column * $col-ratio-4
-    max-width: $column * $col-ratio-4
-
-  .col-sm-5
-    flex-basis: $column * $col-ratio-5
-    max-width: $column * $col-ratio-5
-
-  .col-sm-6
-    flex-basis: $column * $col-ratio-6
-    max-width: $column * $col-ratio-6
-
-  .col-sm-7
-    flex-basis: $column * $col-ratio-7
-    max-width: $column * $col-ratio-7
-
-  .col-sm-8
-    flex-basis: $column * $col-ratio-8
-    max-width: $column * $col-ratio-8
-
-  .col-sm-9
-    flex-basis: $column * $col-ratio-9
-    max-width: $column * $col-ratio-9
-
-  .col-sm-10
-    flex-basis: $column * $col-ratio-10
-    max-width: $column * $col-ratio-10
-
-  .col-sm-11
-    flex-basis: $column * $col-ratio-11
-    max-width: $column * $col-ratio-11
-
-  .col-sm-12
-    flex-basis: $column * $col-ratio-12
-    max-width: $column * $col-ratio-12
-
-  .col-sm-offset-0
-    margin-left: 0
-
-  .col-sm-offset-1
-    margin-left: $column
-
-  .col-sm-offset-2
-    margin-left: $column * $col-ratio-2
-
-  .col-sm-offset-3
-    margin-left: $column * $col-ratio-3
-
-  .col-sm-offset-4
-    margin-left: $column * $col-ratio-4
-
-  .col-sm-offset-5
-    margin-left: $column * $col-ratio-5
-
-  .col-sm-offset-6
-    margin-left: $column * $col-ratio-6
-
-  .col-sm-offset-7
-    margin-left: $column * $col-ratio-7
-
-  .col-sm-offset-8
-    margin-left: $column * $col-ratio-8
-
-  .col-sm-offset-9
-    margin-left: $column * $col-ratio-9
-
-  .col-sm-offset-10
-    margin-left: $column * $col-ratio-10
-
-  .col-sm-offset-11
-    margin-left: $column * $col-ratio-11
+  @for $i from 1 through 11
+    .col-sm-offset-#{$i}
+      flex-basis: $column * (nth($col-ratio, $i))
+      max-width: $column * (nth($col-ratio, $i))
 
   .start-sm
     justify-content: flext-start
@@ -369,89 +227,18 @@
     flex-basis: 0
     max-width: 100%
 
-  .col-md-1
-    flex-basis: $column
-    max-width: $column
+  @for $i from 1 through 12
+    .col-md-#{$i}
+      flex-basis: $column * (nth($col-ratio, $i))
+      max-width: $column * (nth($col-ratio, $i))
 
-  .col-md-2
-    flex-basis: $column * $col-ratio-2
-    max-width: $column * $col-ratio-2
+.col-md-offset-0
+  margin-left: 0
 
-  .col-md-3
-    flex-basis: $column * $col-ratio-3
-    max-width: $column * $col-ratio-3
-
-  .col-md-4
-    flex-basis: $column * $col-ratio-4
-    max-width: $column * $col-ratio-4
-
-  .col-md-5
-    flex-basis: $column * $col-ratio-5
-    max-width: $column * $col-ratio-5
-
-  .col-md-6
-    flex-basis: $column * $col-ratio-6
-    max-width: $column * $col-ratio-6
-
-  .col-md-7
-    flex-basis: $column * $col-ratio-7
-    max-width: $column * $col-ratio-7
-
-  .col-md-8
-    flex-basis: $column * $col-ratio-8
-    max-width: $column * $col-ratio-8
-
-  .col-md-9
-    flex-basis: $column * $col-ratio-9
-    max-width: $column * $col-ratio-9
-
-  .col-md-10
-    flex-basis: $column * $col-ratio-10
-    max-width: $column * $col-ratio-10
-
-  .col-md-11
-    flex-basis: $column * $col-ratio-11
-    max-width: $column * $col-ratio-11
-
-  .col-md-12
-    flex-basis: $column * $col-ratio-12
-    max-width: $column * $col-ratio-12
-
-  .col-md-offset-0
-    margin-left: 0
-
-  .col-md-offset-1
-    margin-left: $column
-
-  .col-md-offset-2
-    margin-left: $column * $col-ratio-2
-
-  .col-md-offset-3
-    margin-left: $column * $col-ratio-3
-
-  .col-md-offset-4
-    margin-left: $column * $col-ratio-4
-
-  .col-md-offset-5
-    margin-left: $column * $col-ratio-5
-
-  .col-md-offset-6
-    margin-left: $column * $col-ratio-6
-
-  .col-md-offset-7
-    margin-left: $column * $col-ratio-7
-
-  .col-md-offset-8
-    margin-left: $column * $col-ratio-8
-
-  .col-md-offset-9
-    margin-left: $column * $col-ratio-9
-
-  .col-md-offset-10
-    margin-left: $column * $col-ratio-10
-
-  .col-md-offset-11
-    margin-left: $column * $col-ratio-11
+  @for $i from 1 through 11
+    .col-md-offset-#{$i}
+      flex-basis: $column * (nth($col-ratio, $i))
+      max-width: $column * (nth($col-ratio, $i))
 
   .start-md
     justify-content: flext-start
@@ -520,89 +307,18 @@
     flex-basis: 0
     max-width: 100%
 
-  .col-lg-1
-    flex-basis: $column
-    max-width: $column
+  @for $i from 1 through 12
+    .col-lg-#{$i}
+      flex-basis: $column * (nth($col-ratio, $i))
+      max-width: $column * (nth($col-ratio, $i))
 
-  .col-lg-2
-    flex-basis: $column * $col-ratio-2
-    max-width: $column * $col-ratio-2
+.col-lg-offset-0
+  margin-left: 0
 
-  .col-lg-3
-    flex-basis: $column * $col-ratio-3
-    max-width: $column * $col-ratio-3
-
-  .col-lg-4
-    flex-basis: $column * $col-ratio-4
-    max-width: $column * $col-ratio-4
-
-  .col-lg-5
-    flex-basis: $column * $col-ratio-5
-    max-width: $column * $col-ratio-5
-
-  .col-lg-6
-    flex-basis: $column * $col-ratio-6
-    max-width: $column * $col-ratio-6
-
-  .col-lg-7
-    flex-basis: $column * $col-ratio-7
-    max-width: $column * $col-ratio-7
-
-  .col-lg-8
-    flex-basis: $column * $col-ratio-8
-    max-width: $column * $col-ratio-8
-
-  .col-lg-9
-    flex-basis: $column * $col-ratio-9
-    max-width: $column * $col-ratio-9
-
-  .col-lg-10
-    flex-basis: $column * $col-ratio-10
-    max-width: $column * $col-ratio-10
-
-  .col-lg-11
-    flex-basis: $column * $col-ratio-11
-    max-width: $column * $col-ratio-11
-
-  .col-lg-12
-    flex-basis: $column * $col-ratio-12
-    max-width: $column * $col-ratio-12
-
-  .col-lg-offset-0
-    margin-left: 0
-
-  .col-lg-offset-1
-    margin-left: $column
-
-  .col-lg-offset-2
-    margin-left: $column * $col-ratio-2
-
-  .col-lg-offset-3
-    margin-left: $column * $col-ratio-3
-
-  .col-lg-offset-4
-    margin-left: $column * $col-ratio-4
-
-  .col-lg-offset-5
-    margin-left: $column * $col-ratio-5
-
-  .col-lg-offset-6
-    margin-left: $column * $col-ratio-6
-
-  .col-lg-offset-7
-    margin-left: $column * $col-ratio-7
-
-  .col-lg-offset-8
-    margin-left: $column * $col-ratio-8
-
-  .col-lg-offset-9
-    margin-left: $column * $col-ratio-9
-
-  .col-lg-offset-10
-    margin-left: $column * $col-ratio-10
-
-  .col-lg-offset-11
-    margin-left: $column * $col-ratio-11
+  @for $i from 1 through 11
+    .col-lg-offset-#{$i}
+      flex-basis: $column * (nth($col-ratio, $i))
+      max-width: $column * (nth($col-ratio, $i))
 
   .start-lg
     justify-content: flext-start
