@@ -67,17 +67,18 @@
   flex-basis: 0
   max-width: 100%
 
-  @for $i from 1 through 12 
-    .col-xs-#{$i} 
-      flex-basis: $column * $i
-      max-width: $column * $i
+@for $i from 1 through 12 
+  .col-xs-#{$i} 
+    flex-basis: $column * $i
+    max-width: $column * $i
+
 .col-xs-offset-0
   margin-left: 0
 
-  @for $i from 1 through 11
-    .col-xs-offset-#{$i}
-      flex-basis: $column * $i
-      max-width: $column * $i
+@for $i from 1 through 11
+  .col-xs-offset-#{$i}
+    flex-basis: $column * $i
+    max-width: $column * $i
 
 .start-xs
   justify-content: flext-start
@@ -231,8 +232,8 @@
       flex-basis: $column * $i
       max-width: $column * $i
 
-.col-md-offset-0
-  margin-left: 0
+  .col-md-offset-0
+    margin-left: 0
 
   @for $i from 1 through 11
     .col-md-offset-#{$i}
@@ -311,8 +312,8 @@
       flex-basis: $column * $i
       max-width: $column * $i
 
-.col-lg-offset-0
-  margin-left: 0
+  .col-lg-offset-0
+    margin-left: 0
 
   @for $i from 1 through 11
     .col-lg-offset-#{$i}
