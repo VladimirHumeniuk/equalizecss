@@ -218,6 +218,10 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.around-xs {
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
 .first-xs {
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
@@ -370,6 +374,9 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+  .around-sm {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
   .first-sm {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -521,6 +528,9 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+  .around-md {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
   .first-md {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -672,6 +682,9 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+  .around-lg {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
   .first-lg {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
