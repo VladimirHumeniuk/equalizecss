@@ -9,4 +9,4 @@ EqualizeCss - this is light-weighted css-grid built on the properties of flexbox
 ## Install
 `$ npm install equalizecss --save`
 
-Add enject the `equalize.css` __development__ or `equalize.min.css` __production__ to your html page.
+Enject the `equalize.css` __development__ or `equalize.min.css` __production__ to your html page.
