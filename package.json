@@ -1,0 +1,37 @@
+{
+  "name": "EqualizeCss",
+  "version": "1.0.8",
+  "description": "css-grid built on the properties of flexboxes and written on the sass",
+  "style": "dist/css/equalize.css",
+  "main": "dist/css/equalize.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vladimirhumeniuk/equalizecss"
+  },
+  "author": "Vladimir Humeniuk",
+  "license": "ISC",
+  "keywords": [
+    "html",
+    "framework",
+    "flexbox",
+    "grid",
+    "css"
+  ],
+  "homepage": "https://vladimirhumeniuk.github.io/equalizecss",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-changed": "^2.0.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-dest-clean": "^0.5.0",
+    "gulp-if": "^2.0.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "3.1.2"
+  }
+}
