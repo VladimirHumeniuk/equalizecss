@@ -52,6 +52,15 @@ gulp.task('csstodist', () =>
     .pipe(gulp.dest('dist/css'))
 );
 
+gulp.task("devbuild", () =>
+	gulp.src("src/*.html")
+		.pipe(useref())
+		.pipe(gulpif("*.css", csso()))
+		.pipe(gulpif("*.js", uglify()))
+		.pipe(gulp.dest('src'))
+);
+
+
 gulp.task("build", () =>
 	gulp.src("src/*.html")
 		.pipe(useref())
