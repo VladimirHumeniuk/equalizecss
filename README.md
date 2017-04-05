@@ -7,6 +7,9 @@ EqualizeCss - this is light-weighted css-grid built on the properties of flexbox
 <a href="https://vladimirhumeniuk.github.io/equalizecss">Documentation</a>
 
 ## Install
+with npm:
 `$ npm install equalizecss --save`
+with bower:
+`$ bower install equalizecss`
 
 Enject the `equalize.css` __development__ or `equalize.min.css` __production__ to your html page.
