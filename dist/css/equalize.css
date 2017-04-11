@@ -1,7 +1,10 @@
 .container,
 .container-fluid {
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px; }
 
 .container-fluid {
   padding-right: 16px;
@@ -241,6 +244,19 @@
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1; }
+
+.self-start {
+  -ms-flex-item-align: start !important;
+      align-self: flex-start !important; }
+
+.self-center {
+  -ms-flex-item-align: center !important;
+      -ms-grid-row-align: center !important;
+      align-self: center !important; }
+
+.self-end {
+  -ms-flex-item-align: end !important;
+      align-self: flex-end !important; }
 
 @media only screen and (min-width: 768px) {
   .container {
