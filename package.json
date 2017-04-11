@@ -1,6 +1,6 @@
 {
   "name": "equalizecss",
-  "version": "1.0.84",
+  "version": "1.0.85",
   "description": "css-grid built on the properties of flexboxes and written on the sass",
   "style": "dist/css/equalize.css",
   "main": "dist/css/equalize.css",
