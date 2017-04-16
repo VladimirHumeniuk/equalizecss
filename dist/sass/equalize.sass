@@ -9,8 +9,9 @@
   padding-right: $col-step / 2
 
 .container-fluid
-  padding-right: $col-step
-  padding-left: $col-step
+  width: 100%
+  padding-right: $col-step / 2
+  padding-left: $col-step / 2
 
 .row
   box-sizing: border-box
@@ -20,8 +21,6 @@
   flex-wrap: wrap
   margin-right: - $col-step / 2
   margin-left: - $col-step / 2
-  &.reverse
-    flex-direction: row-reverse
 
 .row-reverse
   flex-direction: row-reverse
@@ -126,6 +125,10 @@
 
 .self-end
   align-self: flex-end !important
+
+@media only screen and (min-width: $tiny)
+  .container
+    width: calc(#{$tiny} - 6.25%)
 
 @media only screen and (min-width: $small)
   .container

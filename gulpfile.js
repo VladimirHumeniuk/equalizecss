@@ -60,7 +60,6 @@ gulp.task("devbuild", () =>
 		.pipe(gulp.dest('src'))
 );
 
-
 gulp.task("build", () =>
 	gulp.src("src/*.html")
 		.pipe(useref())
