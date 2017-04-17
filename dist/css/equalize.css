@@ -241,16 +241,16 @@
       -ms-flex-order: 1;
           order: 1; }
 
-.self-start {
+.self-top {
   -ms-flex-item-align: start !important;
       align-self: flex-start !important; }
 
-.self-center {
+.self-middle {
   -ms-flex-item-align: center !important;
       -ms-grid-row-align: center !important;
       align-self: center !important; }
 
-.self-end {
+.self-bottom {
   -ms-flex-item-align: end !important;
       align-self: flex-end !important; }
 
