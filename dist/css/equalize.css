@@ -249,7 +249,7 @@
   display: none; }
 
 .show-xs-up {
-  display: none; }
+  display: block; }
 
 .self-top {
   -ms-flex-item-align: start !important;
@@ -428,7 +428,7 @@
   .hidden-sm-up {
     display: none; }
   .show-sm-up {
-    display: none; } }
+    display: block; } }
 
 @media only screen and (min-width: 992px) {
   .container {
@@ -594,7 +594,7 @@
   .hidden-md-up {
     display: none; }
   .show-md-up {
-    display: none; } }
+    display: block; } }
 
 @media only screen and (min-width: 1200px) {
   .container {
@@ -760,4 +760,4 @@
   .hidden-lg-up {
     display: none; }
   .show-lg-up {
-    display: none; } }
+    display: block; } }
