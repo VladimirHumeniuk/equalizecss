@@ -11,7 +11,7 @@ with npm:<br/>
 `$ npm install equalizecss --save` <br/><br/>
 with bower:<br/>
 `$ bower install equalizecss` <br/><br/>
-:crown: exclusive vip-premium version:<br/>
+with yarn:<br/>
 `$ yarn add equalizecss` <br/><br/>
 
 Enject the `equalize.css` __development__ or `equalize.min.css` __production__ to your html page.

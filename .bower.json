@@ -12,7 +12,7 @@
     "flexbox",
     "framework"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "ignore": [
     "node_modules",
     "bower_components",
