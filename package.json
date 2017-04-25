@@ -20,7 +20,7 @@
     "grid",
     "css"
   ],
-  "homepage": "https://vladimirhumeniuk.github.io/equalizecss",
+  "homepage": "https://equalizecss.com/",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
