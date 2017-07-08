@@ -1,5 +1,6 @@
 @import _vars.sass
 
+.wrapper,
 .container,
 .container-fluid
   margin-right: auto
@@ -126,12 +127,18 @@
   align-self: flex-end !important
 
 @media only screen and (min-width: $tiny)
-  .container
+  .wrapper
     width: calc(#{$tiny} - 6.25%)
 
-@media only screen and (min-width: $small)
   .container
+    width: 540px
+
+@media only screen and (min-width: $small)
+  .wrapper
     width: calc(#{$small} - 6.25%)
+
+  .container
+    width: 720px
 
   .col-sm,
   .col-sm-1,
@@ -218,8 +225,11 @@
     order: 1
 
 @media only screen and (min-width: $medium)
-  .container
+  .wrapper
     width: calc(#{$medium} - 6.25%)
+
+  .container
+    width: 930px
 
   .col-md,
   .col-md-1,
@@ -306,8 +316,11 @@
     order: 1
 
 @media only screen and (min-width: $large)
-  .container
+  .wrapper
     width: calc(#{$large} - 6.25%)
+
+  .container
+    width: 1125px
 
   .col-lg,
   .col-lg-1,
