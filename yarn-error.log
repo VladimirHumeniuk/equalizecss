@@ -1,0 +1,72 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn publish
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  6.11.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "equalizecss",
+    "version": "1.2.0",
+    "description": "css-grid built on the properties of flexboxes and written on the sass",
+    "style": "dist/css/equalize.css",
+    "main": "dist/css/equalize.css",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/vladimirhumeniuk/equalizecss"
+    },
+    "author": "Vladimir Humeniuk",
+    "license": "ISC",
+    "keywords": [
+      "html",
+      "framework",
+      "flexbox",
+      "grid",
+      "css"
+    ],
+    "homepage": "https://equalizecss.com/",
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^3.1.1",
+      "gulp-changed": "^2.0.0",
+      "gulp-csso": "^2.0.0",
+      "gulp-dest-clean": "^0.5.0",
+      "gulp-if": "^2.0.2",
+      "gulp-rimraf": "^0.2.1",
+      "gulp-sass": "^2.3.2",
+      "gulp-server-livereload": "^1.9.2",
+      "gulp-uglify": "^2.0.0",
+      "gulp-useref": "3.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/equalizecss: You must be logged in to publish packages
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/util/request-manager.js:326:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:188:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:191:7)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:1171:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:1091:12)
+      at IncomingMessage.g (events.js:292:16)
+      at emitNone (events.js:91:20)
