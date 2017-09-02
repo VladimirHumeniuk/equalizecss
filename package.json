@@ -12,7 +12,7 @@
     "url": "git://github.com/vladimirhumeniuk/equalizecss"
   },
   "author": "Vladimir Humeniuk",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "html",
     "framework",
@@ -30,7 +30,6 @@
     "gulp-if": "^2.0.2",
     "gulp-rimraf": "^0.2.1",
     "gulp-sass": "^2.3.2",
-    "gulp-server-livereload": "^1.9.2",
     "gulp-uglify": "^2.0.0",
     "gulp-useref": "3.1.2"
   }
