@@ -381,9 +381,9 @@
   .col-sm-offset-11 {
     margin-left: 91.66667%; }
   .start-sm {
-    -webkit-box-pack: flext-start;
-        -ms-flex-pack: flext-start;
-            justify-content: flext-start; }
+    -webkit-box-pack: flex-start;
+        -ms-flex-pack: flex-start;
+            justify-content: flex-start; }
   .center-sm {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -549,9 +549,9 @@
   .col-md-offset-11 {
     margin-left: 91.66667%; }
   .start-md {
-    -webkit-box-pack: flext-start;
-        -ms-flex-pack: flext-start;
-            justify-content: flext-start; }
+    -webkit-box-pack: flex-start;
+        -ms-flex-pack: flex-start;
+            justify-content: flex-start; }
   .center-md {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -717,9 +717,9 @@
   .col-lg-offset-11 {
     margin-left: 91.66667%; }
   .start-lg {
-    -webkit-box-pack: flext-start;
-        -ms-flex-pack: flext-start;
-            justify-content: flext-start; }
+    -webkit-box-pack: flex-start;
+        -ms-flex-pack: flex-start;
+            justify-content: flex-start; }
   .center-lg {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
