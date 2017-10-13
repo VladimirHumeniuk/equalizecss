@@ -37,9 +37,16 @@
   width: 100% !important;
 }
 
+.col,
+.col-xs {
+  margin-left: $column;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-right: $col-step / 2;
+  padding-left: $col-step / 2;
+}
+
 @for $i from 1 through 11 {
-  .col,
-  .col-xs,
   .col-xs-#{$i} {
     margin-left: $column * $i;
     box-sizing: border-box;
@@ -156,8 +163,14 @@
     width: 720px;
   }
 
+  .col-sm {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: $col-step / 2;
+    padding-left: $col-step / 2;
+  }
+
   @for $i from 1 through 11 {
-    .col-sm,
     .col-sm-#{$i} {
       box-sizing: border-box;
       flex: 0 0 auto;
@@ -251,8 +264,14 @@
     width: 930px;
   }
 
+  .col-md {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: $col-step / 2;
+    padding-left: $col-step / 2;
+  }
+
   @for $i from 1 through 11 {
-    .col-md,
     .col-md-#{$i} {
       box-sizing: border-box;
       flex: 0 0 auto;
@@ -346,8 +365,14 @@
     width: 1125px;
   }
 
+  .col-lg {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: $col-step / 2;
+    padding-left: $col-step / 2;
+  }
+
   @for $i from 1 through 11 {
-    .col-lg,
     .col-lg-#{$i} {
       box-sizing: border-box;
       flex: 0 0 auto;
