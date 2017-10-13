@@ -1,5 +1,6 @@
 /node_modules
-/src
+/src/index.html
 /dist/index.html
-./yarn-error.log
+yarn-error.log
 /cdn
+.DS_Store
